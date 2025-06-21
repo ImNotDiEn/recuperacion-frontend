@@ -1,6 +1,6 @@
 <template>
   <v-btn color="primary" size="small" icon @click="$emit('edit', item)">
-    <v-icon>mdi-pencil</v-icon>
+    <Icon path={mdiPencil} size={1} />
     <v-tooltip activator="parent" location="top">Editar</v-tooltip>
   </v-btn>
 </template>
